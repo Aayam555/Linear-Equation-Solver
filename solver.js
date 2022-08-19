@@ -34,10 +34,6 @@ function solveLinearEquation(equations) {
 
   solutions.push(usefulCoefficients[usefulCoefficients.length-1][1][0] / usefulCoefficients[usefulCoefficients.length-1][0])
 
-  // [ [ [ 360, 36 ], [ 1152 ] ],
-  // [ [ 150, 36, 6 ], [ 464 ] ],
-  // [ [ 15, 7, 3, 1 ], [ 40 ] ] ]
-
   let newUsefulCoefficients = [];
 
   for (let i = usefulCoefficients.length - 2; i >= 0; i--){
